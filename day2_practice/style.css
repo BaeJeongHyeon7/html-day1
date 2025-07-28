@@ -1,0 +1,19 @@
+.box{
+    border: 50px solid red;
+    width: 200px;
+    padding: 50px;
+    background-color: yellow;
+    
+}
+
+.green{
+    border: 50px solid green;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: yellowgreen;
+}
+
+.blue{
+    border: 50px solid blue;
+    background-color:cadetblue;
+}
