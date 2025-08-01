@@ -1,0 +1,137 @@
+
+/* ---index--- */
+body{
+    display: flex;
+    flex-direction: column;
+}
+.index-a
+{
+    text-decoration: none;
+}
+
+
+/* ---문제1--- */
+
+.test1-mother{
+    display: flex;
+    justify-content: space-between;
+}
+
+.test1-box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+.test1-boxs{
+    display: flex;
+}
+.test1-boxs-margin{
+    margin-right: 10px;
+}
+
+
+/* ---문제2--- */
+
+.test2-mother{
+    display: flex;
+    flex-direction: column;
+}
+
+.test2-div{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+.test2-div-center{
+    align-self: center;
+}
+
+.test2-div-end{
+    align-self: end;
+}
+
+
+/* ---문제3--- */
+
+.test3-mother{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test3-div1{
+    width: 200px;
+    height: 200px;
+    color:white;
+    background-color: dimgray;
+}
+
+.test3-div2{
+    width: 100px;
+    height: 100px;
+    color:white;
+    background-color: black;
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+/* ---문제4---*/
+
+.test4-mother{
+    display: flex;
+    flex-direction: column;
+}
+
+.test4-div1{
+    width: 100px;
+    height: 100px;
+    color:white;
+    background-color: black;
+}
+
+
+.test4-div2{
+    width: 100px;
+    height: 100px;
+    color:white;
+    background-color: dimgray;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+/* ---문제5--- */
+
+.test5-div1{
+    width: 350px;
+    height: 150px;
+    color: white;
+    background-color: dimgray;
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+}
+
+.box-style{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+.div3{
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+
+.div2{
+    position: absolute;
+    bottom: 0px;
+}

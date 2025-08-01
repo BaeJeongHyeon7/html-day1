@@ -1,0 +1,16 @@
+
+.mother{
+    border: 1px solid red;
+    display: flex;
+    
+    height: 100vh;
+
+    /*flex-direction: column;*/
+    /*justify-content:*/
+}
+
+.chlidren{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
