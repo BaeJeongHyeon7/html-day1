@@ -1,0 +1,71 @@
+
+.nav-a{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-outline-success{
+    color:  chocolate;
+    border-color: chocolate;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+.btn-outline-success:hover {
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+
+.nav-btn-a:active{
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+
+.btn-check:focus+.btn-outline-success, .btn-outline-success:focus {
+    box-shadow: 0 0 0 .25rem rgba(25, 135, 84, .5);
+}
+
+
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-check:focus+.btn-dark, .btn-dark:focus {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+    box-shadow: 0 0 0 .25rem rgba(66, 70, 73, .5);
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.link-a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-1st-line{
+    border-bottom: 1px solid #392d23;
+}
+
+.card-title-location{
+    text-align: center;
+}
