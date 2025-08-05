@@ -1,0 +1,94 @@
+.btn-outline-success{
+    color:cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.btn-outline-success:hover{
+    color: white;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-font{
+    color: black;
+    font-weight: bold;
+}
+.card-font-2ed{
+    color: black;
+}
+
+.card-btn{
+    border: solid black 1px;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.card-btn2{
+    border: solid white 1px;
+    color:white;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+}
+
+footer{
+    background-color: #f5f5f5;
+    padding: 40px 25px;
+   
+}
+
+.footer-line{
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans', 'Noto Sans KR', Arial, dotum, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.footer-line:hover{
+    color: rgba(0, 0, 0, 0.4); 
+}
+.footer-box2 {
+    width: 350px;
+}
+
+.footer-line-2{
+    color: #999999;
+    text-decoration: #999999;
+    font-family: 'Noto Sans', 'Noto Sans KR', Arial, dotum, sans-serif;
+    font-size: 14px;
+}
+
+.footer-box3 {
+    color: #999999;
+    text-decoration: #999999;
+    font-family: 'Noto Sans', 'Noto Sans KR', Arial, dotum, sans-serif;
+    font-size: 14px;
+}
+
+i{
+    color: #999999;
+    font-size: 26px;
+}
+
+.media-footer {
+  color: #999999;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  display: none;
+}
+
+
+@media screen and (max-width: 48rem) {
+
+  .media-footer{
+    display: block;
+  }
+}
